@@ -1,10 +1,21 @@
-import NotificationButton from "./components/NotificationButton"
+import Header from "./components/Header"
+import SalesCard from "./components/SalesCard"
 
 function App() {
   return (
     <>
-      <h1>Hello, Dev World</h1>
-      <NotificationButton />
+      <Header />
+
+      <main>
+        <section id="sales">
+          <div className="meta-container">
+
+            < SalesCard />
+
+          </div>
+        </section>
+      </main>
+
     </>
   )
 }
