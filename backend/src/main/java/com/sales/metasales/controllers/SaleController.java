@@ -45,5 +45,15 @@ public class SaleController {
 		smsService.sendSms(id);
 		
 	}
+	
+	
+	
+	@GetMapping("/notification")
+	public void notifySMS() {
+		smsService.sendSms();
+		
+	}
+	
+	
 
 }
